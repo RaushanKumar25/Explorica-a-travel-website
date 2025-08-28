@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorica-Tour & travel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorica - Tour & Travel</title>
+  <!-- Remix Icon CDN (for icons to show properly) -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">Travel</a>
-            <div class="nav_menu" id="nav_menu">
-                <ul class="nav_list">
-                    <li class="nav_items">
-                        <a href="#home" class="nav_link active-link">Home</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#about" class="nav_link">About</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#discover" class="nav_link active-link">Discover</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#place" class="nav_link active-link">Place</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav_logo">Travel</a>
+      
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_items">
+            <a href="#home" class="nav_link active-link">Home</a>
+          </li>
+          <li class="nav_items">
+            <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_items">
+            <a href="#discover" class="nav_link">Discover</a>
+          </li>
+          <li class="nav_items">
+            <a href="#place" class="nav_link">Place</a>
+          </li>
+        </ul>
+
+        <!-- Dark mode toggle -->
+        <div class="nav_dark">
+          <span class="change-theme-name">Dark mode</span>
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+        </div>
+
+        <!-- Close button -->
+        <i class="ri-close-line nav_close" id="nav-close"></i>
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="ri-function-line"></i>
+      </div>
+    </nav>
+  </header>
 </body>
 </html>
